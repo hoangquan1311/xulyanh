@@ -3,7 +3,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 
-image = cv2.imread('anh.jpg', cv2.IMREAD_GRAYSCALE)
+image = cv2.imread('anh1.png', cv2.IMREAD_GRAYSCALE)
 
 
 hist_original = cv2.calcHist([image], [0], None, [256], [0, 256])
