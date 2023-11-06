@@ -19,8 +19,8 @@ print("Danh sách đối tượng đường và độ dài:")
 for obj_label, obj_length in object_lengths:
     print(f"Đối tượng {obj_label}: Độ dài = {obj_length} điểm ảnh")
 
-cv.imshow('Ảnh gốc', img)
-cv.imshow('Hình ảnh được gắn nhãn', np.uint8(labels * (255 / num_labels)))
+cv.imshow('Anh goc', img)
+cv.imshow('Anh duoc gan nhan', np.uint8(labels * (255 / num_labels)))
 
 cv.waitKey(0)
 cv.destroyAllWindows()
